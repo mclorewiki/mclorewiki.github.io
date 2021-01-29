@@ -26,9 +26,9 @@ aside {
 .Contents {
 	font-family: sans-serif;
 	display: table;
-	list-style-type: none; /* Remove bullets */
-	padding: 2px; /* Remove padding */
-	margin: 10px; /* Remove margins */
+	list-style-type: none;
+	padding: 6px;
+	margin: 6px;
 	outline-style: solid;
 	outline-width: 2px;
 	outline-color: lightgray;
