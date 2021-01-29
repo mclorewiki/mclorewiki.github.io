@@ -1,5 +1,18 @@
+p {
+	font-family: sans-serif;
+}
+
+h1, h2 {
+	border-bottom: 1px solid lightgray;
+	width: 66%;
+}
+
+h3, h4 {
+	font-family: sans-serif;
+}
+
 aside {
-	width: 30%;
+	width: 33%;
 	padding-left: 15px;
 	margin-left: 15px;
 	float: right;
@@ -10,7 +23,18 @@ aside {
 	outline-color: lightgray;
 }
 
-#Contents {
+.Contents {
+	display: table;
+	list-style-type: none; /* Remove bullets */
+	padding: 2px; /* Remove padding */
+	margin: 10px; /* Remove margins */
+	outline-style: solid;
+	outline-width: 2px;
+	outline-color: lightgray;
+}
+
+.Contents li::before {
+	content: "# ";
 }
 
 @font-face {
