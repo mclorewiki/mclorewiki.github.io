@@ -1,0 +1,29 @@
+aside {
+	width: 30%;
+	padding-left: 15px;
+	margin-left: 15px;
+	float: right;
+	font-style: italic;
+	text-align: center;
+	outline-style: solid;
+	outline-width: 2px;
+	outline-color: lightgray;
+}
+
+#Contents {
+}
+
+@font-face {
+	font-family: msgothic;
+	src: url(/assets/fonts/msgothic.ttf);
+}
+
+pre {
+	tab-size: 8;
+	font-family: msgothic;
+	line-height: .8;
+}
+
+.r {
+	font-family: serif;
+}
