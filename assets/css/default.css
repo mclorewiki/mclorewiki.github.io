@@ -1,17 +1,51 @@
-p {
-	font-family: sans-serif;
+.side {
+	height: 100%; /* Full-height: remove this if you want "auto" height */
+	width: 110px; /* Set the width of the sidebar */
+	position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+	z-index: 1; /* Stay on top */
+	top: 0; /* Stay at the top */
+	left: 0;
+	background-color: #111; /* Black */
+	overflow-x: hidden; /* Disable horizontal scroll */
+	padding-top: 0px;
+	text-align: center;
+}
+
+.side img {
+	width: 110px;
+}
+
+.side p {
+	color: lighgray;
+}
+
+.side a:link a:visited a:hover a:active {
+	color: white;
+}
+
+.main {
+	margin-left: 110px;
 }
 
 h1, h2 {
 	border-bottom: 1px solid lightgray;
-	width: 66%;
+	width: 65%;
+}
+
+p {
+	font-family: sans-serif;
 }
 
 h3, h4 {
 	font-family: sans-serif;
 }
 
+footer {
+	text-align: center;
+}
+
 aside {
+	display: table;
 	width: 33%;
 	padding-left: 15px;
 	margin-left: 15px;
@@ -26,9 +60,9 @@ aside {
 .Contents {
 	font-family: sans-serif;
 	display: table;
-	list-style-type: none;
-	padding: 6px;
-	margin: 6px;
+	list-style-type: none; /* Remove bullets */
+	padding: 6px; /* Remove padding */
+	margin: 6px; /* Remove margins */
 	outline-style: solid;
 	outline-width: 2px;
 	outline-color: lightgray;
